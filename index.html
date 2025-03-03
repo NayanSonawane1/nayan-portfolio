@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayan Gokul Sonawane - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <header>
+        <img src="profile.jpg" alt="Nayan Gokul Sonawane" class="profile-pic">
+        <h1>Nayan Gokul Sonawane</h1>
+        
+        <p id="typing-text"></p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+
+    </nav>
+    <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>I am a passionate and driven Front-End Web Developer with a solid foundation in HTML, CSS, JavaScript, and React.js.</p>
+    </section>
+    
+        <p>Let’s connect and explore how we can collaborate!</p>
+        <a href="resume.pdf" download class="resume-btn">📄 Download Resume</a>
+
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio to showcase my work.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Weather App</h3>
+                <p>A React-based app that shows live weather updates.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"Nayan is a fantastic developer! His attention to detail is impressive."</p>
+                <h4>- John Doe, Software Engineer</h4>
+            </div>
+            <div class="testimonial">
+                <p>"A quick learner and a great problem solver. Highly recommend!"</p>
+                <h4>- Jane Smith, Mentor</h4>
+            </div>
+        </div>
+    </section>
+    
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div id="blog-container"></div>
+    </section>
+    
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:nayansonawane300@gmail.com">nayansonawane300@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/nayan-sonawane-739a57349" target="_blank">linkedin.com/in/nayan-sonawane</a></p>
+        <p>GitHub: <a href="https://github.com/NayanSonawane1" target="_blank">github.com/NayanSonawane1</a></p>
+        <form action="https://formsubmit.co/your-email@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        
+    </section>
+    <script src="script.js" defer></script>
+</body>
+<button id="scroll-top">⬆</button>
+
+</html>
